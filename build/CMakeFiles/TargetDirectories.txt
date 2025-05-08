@@ -1,0 +1,3 @@
+/home/viet/projects/learn_cpp/build/CMakeFiles/HelloWorld.dir
+/home/viet/projects/learn_cpp/build/CMakeFiles/edit_cache.dir
+/home/viet/projects/learn_cpp/build/CMakeFiles/rebuild_cache.dir

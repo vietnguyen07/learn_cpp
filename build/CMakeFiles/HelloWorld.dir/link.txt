@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -o debug/HelloWorld 

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(HelloWorld)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ./debug/)
+add_executable(HelloWorld ../core/src/main.cpp)
