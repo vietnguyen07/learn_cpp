@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o -c /home/viet/projects/learn_cpp/core/src/graph.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/graph.cpp"
+},
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -c /home/viet/projects/learn_cpp/core/src/main.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/main.cpp"
+},
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o -c /home/viet/projects/learn_cpp/core/src/queue.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/queue.cpp"
+},
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o -c /home/viet/projects/learn_cpp/core/src/shortestpath.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/shortestpath.cpp"
+}
+]

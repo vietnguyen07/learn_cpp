@@ -129,6 +129,30 @@ HelloWorld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
 .PHONY : HelloWorld/fast
 
+home/viet/projects/learn_cpp/core/src/graph.o: home/viet/projects/learn_cpp/core/src/graph.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.cpp.o
+
+home/viet/projects/learn_cpp/core/src/graph.i: home/viet/projects/learn_cpp/core/src/graph.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.cpp.i
+
+home/viet/projects/learn_cpp/core/src/graph.s: home/viet/projects/learn_cpp/core/src/graph.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/graph.cpp.s
+
 home/viet/projects/learn_cpp/core/src/main.o: home/viet/projects/learn_cpp/core/src/main.cpp.o
 .PHONY : home/viet/projects/learn_cpp/core/src/main.o
 
@@ -153,6 +177,54 @@ home/viet/projects/learn_cpp/core/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s
 .PHONY : home/viet/projects/learn_cpp/core/src/main.cpp.s
 
+home/viet/projects/learn_cpp/core/src/queue.o: home/viet/projects/learn_cpp/core/src/queue.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.cpp.o
+
+home/viet/projects/learn_cpp/core/src/queue.i: home/viet/projects/learn_cpp/core/src/queue.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.cpp.i
+
+home/viet/projects/learn_cpp/core/src/queue.s: home/viet/projects/learn_cpp/core/src/queue.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/queue.cpp.s
+
+home/viet/projects/learn_cpp/core/src/shortestpath.o: home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o
+
+home/viet/projects/learn_cpp/core/src/shortestpath.i: home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i
+
+home/viet/projects/learn_cpp/core/src/shortestpath.s: home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HelloWorld"
+	@echo "... home/viet/projects/learn_cpp/core/src/graph.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/graph.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/graph.s"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.s"
+	@echo "... home/viet/projects/learn_cpp/core/src/queue.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/queue.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/queue.s"
+	@echo "... home/viet/projects/learn_cpp/core/src/shortestpath.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/shortestpath.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/shortestpath.s"
 .PHONY : help
 
 

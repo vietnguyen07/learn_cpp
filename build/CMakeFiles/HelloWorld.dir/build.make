@@ -69,31 +69,79 @@ include CMakeFiles/HelloWorld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HelloWorld.dir/flags.make
 
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o: /home/viet/projects/learn_cpp/core/src/graph.cpp
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o: CMakeFiles/HelloWorld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o -MF CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o.d -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o -c /home/viet/projects/learn_cpp/core/src/graph.cpp
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/projects/learn_cpp/core/src/graph.cpp > CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.i
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/projects/learn_cpp/core/src/graph.cpp -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.s
+
 CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
 CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o: /home/viet/projects/learn_cpp/core/src/main.cpp
 CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o: CMakeFiles/HelloWorld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -MF CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o.d -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -c /home/viet/projects/learn_cpp/core/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -MF CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o.d -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -c /home/viet/projects/learn_cpp/core/src/main.cpp
 
 CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/projects/learn_cpp/core/src/main.cpp > CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/projects/learn_cpp/core/src/main.cpp > CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.i
 
 CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/projects/learn_cpp/core/src/main.cpp -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/projects/learn_cpp/core/src/main.cpp -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o: /home/viet/projects/learn_cpp/core/src/queue.cpp
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o: CMakeFiles/HelloWorld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o -MF CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o.d -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o -c /home/viet/projects/learn_cpp/core/src/queue.cpp
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/projects/learn_cpp/core/src/queue.cpp > CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.i
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/projects/learn_cpp/core/src/queue.cpp -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.s
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o: CMakeFiles/HelloWorld.dir/flags.make
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o: /home/viet/projects/learn_cpp/core/src/shortestpath.cpp
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o: CMakeFiles/HelloWorld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o -MF CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o.d -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o -c /home/viet/projects/learn_cpp/core/src/shortestpath.cpp
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/projects/learn_cpp/core/src/shortestpath.cpp > CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.i
+
+CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/projects/learn_cpp/core/src/shortestpath.cpp -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.s
 
 # Object files for target HelloWorld
 HelloWorld_OBJECTS = \
-"CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o"
+"CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o" \
+"CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o" \
+"CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o" \
+"CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o"
 
 # External object files for target HelloWorld
 HelloWorld_EXTERNAL_OBJECTS =
 
+debug/HelloWorld: CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o
 debug/HelloWorld: CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o
+debug/HelloWorld: CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o
+debug/HelloWorld: CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o
 debug/HelloWorld: CMakeFiles/HelloWorld.dir/build.make
 debug/HelloWorld: CMakeFiles/HelloWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable debug/HelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/projects/learn_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable debug/HelloWorld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HelloWorld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

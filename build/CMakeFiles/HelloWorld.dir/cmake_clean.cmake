@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o"
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.o.d"
   "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o"
   "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o.d"
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o"
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/queue.cpp.o.d"
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o"
+  "CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/shortestpath.cpp.o.d"
   "debug/HelloWorld"
   "debug/HelloWorld.pdb"
 )
