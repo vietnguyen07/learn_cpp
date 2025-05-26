@@ -161,4 +161,6 @@ CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o: \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/viet/projects/learn_cpp/build/../core/header/queue.h
+ /home/viet/projects/learn_cpp/build/../core/header/queue.h \
+ /home/viet/projects/learn_cpp/build/../core/header/montecarlosim.h \
+ /home/viet/projects/learn_cpp/build/../core/header/graphtest.h

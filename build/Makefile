@@ -153,6 +153,30 @@ home/viet/projects/learn_cpp/core/src/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graph.cpp.s
 .PHONY : home/viet/projects/learn_cpp/core/src/graph.cpp.s
 
+home/viet/projects/learn_cpp/core/src/graphtest.o: home/viet/projects/learn_cpp/core/src/graphtest.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/graphtest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graphtest.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.cpp.o
+
+home/viet/projects/learn_cpp/core/src/graphtest.i: home/viet/projects/learn_cpp/core/src/graphtest.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/graphtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graphtest.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.cpp.i
+
+home/viet/projects/learn_cpp/core/src/graphtest.s: home/viet/projects/learn_cpp/core/src/graphtest.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/graphtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graphtest.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/graphtest.cpp.s
+
 home/viet/projects/learn_cpp/core/src/main.o: home/viet/projects/learn_cpp/core/src/main.cpp.o
 .PHONY : home/viet/projects/learn_cpp/core/src/main.o
 
@@ -176,6 +200,30 @@ home/viet/projects/learn_cpp/core/src/main.s: home/viet/projects/learn_cpp/core/
 home/viet/projects/learn_cpp/core/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.s
 .PHONY : home/viet/projects/learn_cpp/core/src/main.cpp.s
+
+home/viet/projects/learn_cpp/core/src/montecarlosim.o: home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.o
+
+home/viet/projects/learn_cpp/core/src/montecarlosim.i: home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.i
+
+home/viet/projects/learn_cpp/core/src/montecarlosim.s: home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s
 
 home/viet/projects/learn_cpp/core/src/queue.o: home/viet/projects/learn_cpp/core/src/queue.cpp.o
 .PHONY : home/viet/projects/learn_cpp/core/src/queue.o
@@ -237,9 +285,15 @@ help:
 	@echo "... home/viet/projects/learn_cpp/core/src/graph.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/graph.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/graph.s"
+	@echo "... home/viet/projects/learn_cpp/core/src/graphtest.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/graphtest.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/graphtest.s"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/main.s"
+	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.s"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.s"

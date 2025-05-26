@@ -9,7 +9,7 @@ class Graph
     public:
         Graph(int);
         ~Graph();
-        vector<int> numOfVertexes();
+        vector<unsigned int> numOfVertexes();
         int numOfEdges();
         bool adjacent(int x, int y);
         vector<int> neighbors(int x);
@@ -17,15 +17,15 @@ class Graph
         void delete_edge(int x, int y);
         int get_node_value(int x);
         void set_node_value(int x, int a);
-        int get_edge_value(int x, int y);
-        void set_edge_value (int x, int y, int v);
+        double get_edge_value(int x, int y);
+        void set_edge_value (int x, int y, double v);
         void display();
         
     private:
-        vector<int> _vertices;
+        vector<unsigned int> _vertices;
         int _edges;
-        vector<int> _vertice_values;
-        map<int, map<int, int>> _whole_map = {};
+        vector<unsigned int> _vertice_values;
+        map<int, map<int, double>> _whole_map = {};
         void checkInput(const int& m);
 
 };

@@ -9,24 +9,24 @@
 
 using namespace std;
 
-const int NOT_CONNECTED = 0;
-const int CONNECTED = 1;
+const unsigned int NOT_CONNECTED = 0;
+const unsigned int CONNECTED = 1;
 
 Graph::Graph(int vertices): 
-_vertices(vector<int>(vertices,NOT_CONNECTED)), 
+_vertices(vector<unsigned int>(vertices,NOT_CONNECTED)), 
 _edges(0),
-_vertice_values(vector<int>(vertices,0))
+_vertice_values(vector<unsigned int>(vertices,0))
 {
     iota(this->_vertice_values.begin(), this->_vertice_values.end(), 0);
-    map<int,int> singlemap;
+    map<int,double> single_row;
     for(int i=0; i < vertices; i++)
     {
-        singlemap.insert({i,0});
+        single_row.insert({i,0.0});
     }
 
     for(int i=0; i < vertices; i++)
     {
-        this->_whole_map.insert({i,singlemap});
+        this->_whole_map.insert({i,single_row});
     }
 }
 
@@ -35,7 +35,7 @@ Graph::~Graph()
     // Destructor
 }
 
-vector<int> Graph::numOfVertexes()
+vector<unsigned int> Graph::numOfVertexes()
 {
     return this->_vertice_values;
 }
@@ -74,6 +74,7 @@ void Graph::add_edge(int x, int y)
 
     this->_whole_map[x][y] = CONNECTED;
     this->_whole_map[y][x] = CONNECTED;
+    this->_edges++;
 }
 
 void Graph::delete_edge(int x, int y)
@@ -84,6 +85,10 @@ void Graph::delete_edge(int x, int y)
 
     this->_whole_map[x][y] = NOT_CONNECTED;
     this->_whole_map[y][x] = NOT_CONNECTED;
+    if (_edges > 0)
+    {
+        this->_edges--;
+    }
 }
 int Graph::get_node_value(int x)
 {
@@ -95,7 +100,7 @@ void Graph::set_node_value(int x, int a)
 {
     this->checkInput(x);
 }
-int Graph::get_edge_value(int x, int y)
+double Graph::get_edge_value(int x, int y)
 {
     this->checkInput(x);
     this->checkInput(y);
@@ -103,7 +108,7 @@ int Graph::get_edge_value(int x, int y)
     return this->_whole_map[x][y];
 }
 
-void Graph::set_edge_value (int x, int y, int v)
+void Graph::set_edge_value (int x, int y, double v)
 {
     this->checkInput(x);
     this->checkInput(y);

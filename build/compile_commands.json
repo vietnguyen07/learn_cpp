@@ -6,8 +6,18 @@
 },
 {
   "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/graphtest.cpp.o -c /home/viet/projects/learn_cpp/core/src/graphtest.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/graphtest.cpp"
+},
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
   "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/main.cpp.o -c /home/viet/projects/learn_cpp/core/src/main.cpp",
   "file": "/home/viet/projects/learn_cpp/core/src/main.cpp"
+},
+{
+  "directory": "/home/viet/projects/learn_cpp/build",
+  "command": "/usr/bin/g++  -I/home/viet/projects/learn_cpp/build/../core/header -g -std=gnu++11 -o CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.o -c /home/viet/projects/learn_cpp/core/src/montecarlosim.cpp",
+  "file": "/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp"
 },
 {
   "directory": "/home/viet/projects/learn_cpp/build",

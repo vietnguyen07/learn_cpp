@@ -6,7 +6,8 @@ PriorityQueue::PriorityQueue()
 {
 }
 
-void PriorityQueue::chgPrioirity(int priority, int element_id)
+// Set node with id "element_id" to distance value "priority"
+void PriorityQueue::chgPrioirity(double priority, int element_id)
 {
     for (element_t& el: this->m_queue)
     {
@@ -20,6 +21,7 @@ void PriorityQueue::chgPrioirity(int priority, int element_id)
         
 }
 
+// Get node with lowest distance
 element_t PriorityQueue::popminPriority()
 {
     element_t ret_val = *this->m_queue.begin();
@@ -27,6 +29,7 @@ element_t PriorityQueue::popminPriority()
     return ret_val;
 }
 
+// Check if a node exist in queue
 bool PriorityQueue::contains(int element_id)
 {
     bool ret_val = false;
@@ -51,7 +54,7 @@ void PriorityQueue::insert(const element_t &queu_element)
     {
         for(auto i = this->m_queue.begin(); i != this->m_queue.end(); i++)
         {
-            if(queu_element.second <= i->second)
+            if(queu_element.second < i->second)
             {
                 this->m_queue.insert(i, queu_element);
                 return;

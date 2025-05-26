@@ -12,9 +12,11 @@ class ShortestPathAlgo
         ShortestPathAlgo(Graph in_graph);
         list<int> get_shortest_path(int begin, int end);
         int path_size(int begin, int end);
+        double get_avg_cost();
     private:
         Graph m_graph;
-        vector<int> m_path;
+        map<int,double> m_prev;
         PriorityQueue m_queue;
-        map<int,int> _dist;
+        map<int,double> _dist;
+        vector<int> _path;
 };

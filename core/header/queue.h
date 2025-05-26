@@ -1,13 +1,13 @@
 #pragma once
 #include <list>
 using namespace std;
-using element_t = pair<int,int>;
+using element_t = pair<int,double>;
 
 class PriorityQueue
 {
     public:
         PriorityQueue();
-        void chgPrioirity(int priority, int element_id);
+        void chgPrioirity(double priority, int element_id);
         element_t popminPriority();
         bool contains(int element_id);
         void insert(const element_t &queu_element);
