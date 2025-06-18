@@ -10,7 +10,7 @@
 
 const int UNDEFINED = -1;
 
-ShortestPathAlgo::ShortestPathAlgo(Graph in_graph):
+ShortestPathAlgo::ShortestPathAlgo(Graph& in_graph):
 m_graph(in_graph), m_queue(PriorityQueue())
 {
 }
@@ -110,4 +110,23 @@ double ShortestPathAlgo::get_avg_cost()
     }
     _ret = _sum/_size;
     return _ret;
+}
+
+bool ShortestPathAlgo::isConnected(int begin, int end)
+{
+    if (_dist[begin] != 0)
+    {
+        throw runtime_error("must re-calculate path");
+    }
+    else
+    {
+        if(_dist[end] != numeric_limits<double>::infinity())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

@@ -225,6 +225,30 @@ home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s
 .PHONY : home/viet/projects/learn_cpp/core/src/montecarlosim.cpp.s
 
+home/viet/projects/learn_cpp/core/src/mst.o: home/viet/projects/learn_cpp/core/src/mst.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.o
+
+# target to build an object file
+home/viet/projects/learn_cpp/core/src/mst.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/mst.cpp.o
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.cpp.o
+
+home/viet/projects/learn_cpp/core/src/mst.i: home/viet/projects/learn_cpp/core/src/mst.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.i
+
+# target to preprocess a source file
+home/viet/projects/learn_cpp/core/src/mst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/mst.cpp.i
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.cpp.i
+
+home/viet/projects/learn_cpp/core/src/mst.s: home/viet/projects/learn_cpp/core/src/mst.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.s
+
+# target to generate assembly for a file
+home/viet/projects/learn_cpp/core/src/mst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/home/viet/projects/learn_cpp/core/src/mst.cpp.s
+.PHONY : home/viet/projects/learn_cpp/core/src/mst.cpp.s
+
 home/viet/projects/learn_cpp/core/src/queue.o: home/viet/projects/learn_cpp/core/src/queue.cpp.o
 .PHONY : home/viet/projects/learn_cpp/core/src/queue.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/montecarlosim.s"
+	@echo "... home/viet/projects/learn_cpp/core/src/mst.o"
+	@echo "... home/viet/projects/learn_cpp/core/src/mst.i"
+	@echo "... home/viet/projects/learn_cpp/core/src/mst.s"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.o"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.i"
 	@echo "... home/viet/projects/learn_cpp/core/src/queue.s"

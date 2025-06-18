@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/viet/projects/learn_cpp/build/../core/header
 
-CXX_FLAGS = -g -std=gnu++11
+CXX_FLAGS = -g
 

@@ -2,7 +2,9 @@
 #include <map>
 #include <string>
 #include <vector> 
+
 using namespace std;
+using pair_list = vector<vector<int>>;
 
 class Graph
 {
@@ -20,6 +22,7 @@ class Graph
         double get_edge_value(int x, int y);
         void set_edge_value (int x, int y, double v);
         void display();
+        pair_list getEdges();
         
     private:
         vector<unsigned int> _vertices;

@@ -133,6 +133,30 @@ void Graph::display()
     }
 }
 
+pair_list Graph::getEdges()
+{
+    auto vertexes = this->numOfVertexes();
+    pair_list _ret = pair_list();
+    for(auto i = vertexes.begin(); i != vertexes.end(); i++)
+    {
+        if((i+1) == vertexes.end())
+        {
+            break;
+        }
+        for(auto j = i; j != vertexes.end(); j++)
+        {   
+            if(_whole_map[*i][*j] != NOT_CONNECTED)
+            {
+                _ret.push_back(std::vector<int>());
+                _ret[_ret.size()-1].push_back(*i);
+                _ret[_ret.size()-1].push_back(*j);
+            }
+        }
+
+    }
+    return _ret;
+}
+
 void Graph::checkInput(const int& m)
 {
     assert(m >= 0 && m < this->_vertices.size());
